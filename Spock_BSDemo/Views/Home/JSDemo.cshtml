@@ -1,0 +1,21 @@
+﻿
+
+
+
+
+
+
+
+
+<script>
+    $("#btn1").click(function () {
+        var num1 = number($(#input1).val());
+        var num2 = +($(#input2).val());
+
+        var sum = num1 + num2;
+        var mult = num1 * num2;
+
+        $(#sum).text("This is sum:" + sum);
+        $(#mult).text("The product is:" + mult);
+    }
+</script>

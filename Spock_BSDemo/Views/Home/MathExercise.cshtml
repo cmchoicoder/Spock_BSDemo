@@ -1,0 +1,130 @@
+﻿
+@{
+    ViewBag.Title = "ExerciseMath";
+}
+
+<!--Math-->
+   <div class="row" id="gameName">
+      <div class="col-sm-12 text-center h1 font-weight-bolder">
+         Math Exercise
+      </div>
+   </div>
+   <div class="row mb-5">
+       <div class="col-sm-12 text-center h5">
+          Lest's do some math.Enter any 5 integer numbers!
+       </div>
+   </div>
+       
+   <div class="row">
+       <div class="col-md-6">
+           <div class="row form-group">
+               <div class="col-md-12">
+                   <label for="num1">Enter number1:</label>
+                   <input type="number" id="mathnum1" placeholder="Enter an integer" class="form-control" />
+               </div>
+           </div>
+           <div class="row form-group">
+               <div class="col-md-12">
+                   <label for="num2">Enter number2:</label>
+                   <input type="number" id="mathnum2" placeholder="Enter an integer" class="form-control" />
+               </div>
+           </div>
+           <div class="row form-group">
+               <div class="col-md-12">
+                   <label for="num3">Enter number3:</label>
+                   <input type="number" id="mathnum3" placeholder="Enter an integer" class="form-control" />
+               </div>
+           </div>
+           <div class="row form-group">
+               <div class="col-md-12">
+                   <label for="num4">Enter number4:</label>
+                   <input type="number" id="mathnum4" placeholder="Enter an integer" class="form-control" />
+               </div>
+           </div>
+           <div class="row form-group">
+               <div class="col-md-12">
+                   <label for="num5">Enter number5:</label>
+                   <input type="number" id="mathnum5" placeholder="Enter an integer" class="form-control" />
+               </div>
+           </div>
+       </div>
+
+       <div class="col-md-6">
+           <div class="row">
+               <div class="col-md-12 text h3 bg-light text-center">Results</div>
+           </div>
+           <div class="row mb-3 h4">
+               <div class="col-md-12" id="smallest"></div>
+           </div>
+           <div class="row mb-3 h4">
+               <div class="col-md-12" id="largest"></div>
+           </div>
+           <div class="row mb-3 h4">
+               <div class="col-md-12" id="sum"></div>
+           </div>
+           <div class="row mb-3 h4">
+               <div class="col-md-12" id="product"></div>
+           </div>
+           <div class="row mb-3 h4">
+               <div class="col-md-12" id="average"></div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="d-inline-block ml-2">
+               <button id="btnStart" type="button" class="btn">Start</button>
+               <button id="btnToggleCode" type="button" class="btn btn-light">Show Code</button>
+               <button id="btnClear" type="button" class="btn">Clear</button>
+           </div>
+       </div>
+   </div>
+
+    <hr/>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="code">
+                <pre class="brush:js">
+                   
+                    $("#btnStart").click(function () {
+                        var num1 = Number($("#mathnum1").val());
+                        var num2 = Number($("#mathnum2").val());
+                        var num3 = Number($("#mathnum3").val());
+                        var num4 = +$("#mathnum4").val();
+                        var num5 = +$("#mathnum5").val();
+
+                        var smallest = Math.min(num1, num2, num3, num4, num5);
+                        var largest = Math.max(num1, num2, num3, num4, num5);
+                        var sum = num1 + num2 + num3 + num4 + num5;
+                        var product = num1 * num2 * num3 * num4 * num5;
+                        var average = sum / 5;
+
+                        $("#smallest").text("The smallest number is:" + ' ' + smallest);
+                        $("#largest").text("The largest number is:" + ' ' + largest);
+                        $("#sum").text("The sum is:" + sum);
+                        $("#product").text("The product is:" + ' ' + product);
+                        $("#average").text("The average is:" + ' ' + average);
+                    });
+
+                    $("#btnClear").click(function () {
+                        $("#mathnum1, #mathnum2, #mathnum3, #mathnum4, #mathnum5").val('');
+                        $("#smallest, #largest, #sum, #product, #average").text('');
+                        $("#factOut").text('');
+                        $("#fact").val('');
+                    });
+
+                    $("#code").hide();
+                    $("#btnToggleCode").click(function () {
+                        $("#code").toggle();
+                        if ($(this).text() == "Show Code") {
+                        $(this).text("Hide Code");
+                        } else {
+                            $(this).text("Show Code");
+                        }
+                    });
+                   
+                </pre>
+            </div>
+        </div>
+    </div>
+
+
+

@@ -1,0 +1,222 @@
+﻿/* MathExercise...*/
+ * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #btnStartMath, #btnClearMath{
+        border: none;
+        font-size: 1rem;
+        padding: 5px 50px;
+        border-radius: 5px;
+        cursor: pointer; 
+        background-color: orange;
+    }
+   
+    #btnToggleCodeMath {
+        border: 2px solid #ff6a00;
+        font-size: 14px;
+    }
+   
+    #btnStartMath:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnClearMath:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnToggleCodeMath:hover {
+         background: gray;
+    }
+  
+    #gameNameMath {
+        background-color: orange;
+        border-radius: 20px;
+    }
+
+    /* Factorial...*/
+     
+    #btnFact, #btnClearFact{
+        border: none;
+        font-size: 1rem;
+        padding: 5px 50px;
+        border-radius: 5px;
+        cursor: pointer; 
+        background-color: orange;
+    }
+   
+    #btnToggleCodeFact {
+        border: 2px solid #ff6a00;
+        font-size: 14px;
+    }
+   
+    #btnFact:hover {
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnClearFact:hover {
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnToggleCodeFact:hover {
+         background: gray;
+    }
+  
+    #gameNameFact {
+        background-color: orange;
+        border-radius: 20px;
+    }
+
+    /* Palindrome...*/
+   
+    #btnPal, #btnClearPalin{
+        border: none;
+        font-size: 1rem;
+        padding: 5px 50px;
+        border-radius: 5px;
+        cursor: pointer; 
+        background-color: orange;
+    }
+   
+    #btnToggleCodePalin {
+        border: 2px solid #ff6a00;
+        font-size: 14px;
+    }
+   
+    #btnPal:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnClearPalin:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnToggleCodePalin:hover {
+         background: gray;
+    }
+   
+    #gameNamePalin {
+        background-color: orange;
+        border-radius: 20px;
+    }
+    
+    /*FizzBuzz...*/
+      .pre-scrollable {
+        height: 400px;
+    }
+    .outBox {
+        background-color: lightgray;
+        border: 1px solid lightgray;
+        margin-left:20px;
+    }
+
+    .fizz {
+        color: blue;
+        font-weight: bold;
+        font-size: large
+    }
+    
+    .buzz {
+        color: red;
+        font-weight: bold;
+        font-size: large
+    }
+   
+    .fizzBuzzbl {
+        color: blue;
+        font-weight: bold;
+        font-size: large
+    }
+    
+    .fizzBuzzred {
+        color: red;
+        font-weight: bold;
+        font-size: large
+    }
+   
+    #btnFB, #btnClearFB{
+        border: none;
+        font-size: 1rem;
+        padding: 5px 50px;
+        border-radius: 5px;
+        cursor: pointer; 
+        background-color: orange;
+    }
+   
+    #btnToggleCodeFB {
+        border: 2px solid #ff6a00;
+        font-size: 14px;
+    }
+   
+    #btnFB:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnClearFB:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnToggleCodeFB:hover {
+         background: gray;
+    }
+    
+   
+    
+    #gameNameFB {
+        background-color: orange;
+        border-radius: 20px;
+    }
+    /*The Sum of All Fears*/
+    
+    .red
+    {
+        color:red;
+    }
+     #btnSearchSumof, #clearFBResult{
+        border: none;
+        font-size: 1rem;
+        padding: 5px 50px;
+        border-radius: 5px;
+        cursor: pointer; 
+        background-color: orange;
+    }
+   
+    #btnToggleCodeSumof {
+        border: 2px solid #ff6a00;
+        font-size: 14px;
+    }
+   
+    #btnSearchSumof:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #clearFBResult:hover {
+        
+        color: lightgray;
+        background: darkorange;
+    }
+   
+    #btnToggleCodeSumof:hover {
+         background: gray;
+    }
+
+    #gameNameSumof {
+        background-color: orange;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }

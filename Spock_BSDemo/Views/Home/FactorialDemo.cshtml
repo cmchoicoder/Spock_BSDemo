@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "FactorialDemo";
+}
+
+<div class="row" id="gameName">
+       <div class="col-sm-12 text-center h1 font-weight-bolder">
+         Factorial Exercise
+       
+       </div>
+   </div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <form class="form-group mb-5">
+            <div class="row mt-5">
+                <label for="factNum">Number:</label>
+                <input id="fact" class="form-control" type="number" placeholder="Enter your number" />
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-12 mt-5 text-center h5">
+                Results
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12 mt-2 h4 text-center">
+                <p id="factOut"></p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="row">
+            <div class="d-inline-block ml-2">
+                <button id="btnFact" type="button" class="btn">Start</button>
+                
+                <button id="btnToggleCode" type="button" class="btn btn-light">Show Code</button>
+                
+                <button id="btnClear" type="button" class="btn">Clear</button>
+            </div>
+   
+    </div>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="code">
+                <pre class="brush:js">
+                    
+                       $("#btnPal").click(function () {
+
+                            var word = $("#palIn").val();
+                            var revWord = "";
+           
+                            for (var i = word.length - 1; i >= 0; i--) {
+                                revWord += word.substr(i, 1);
+                            }
+
+                            if (revWord == word) {
+                                $("#palOut").text("This is Palindrome:" + ' ' + revWord);
+                            } else {
+                                $("#palOut").text("This is not Palindrome:" + ' ' + revWord);
+                            }
+                        });
+
+                        $("#btnClear").click(function () {
+                            $("#palOut").text('');
+                            $("#palIn").val('');
+                        });
+
+                        $("#code").hide();
+                        $("#btnToggleCode").click(function () {
+                            $("#code").toggle();
+                            if ($(this).text() == "Show Code") {
+                                $(this).text("Hide Code");
+                            } else {
+                                $(this).text("Show Code");
+                            }
+                        });
+                   
+                </pre>
+            </div>
+        </div>
+    </div>
+

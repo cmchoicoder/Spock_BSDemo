@@ -1,0 +1,191 @@
+﻿
+@{
+    ViewBag.Title = "SumOfAllFears";
+}
+
+
+<!--
+<div class="row" id="gameName">
+    <div class="col-sm-12 text-center h1 font-weight-bolder">
+         <div class="col-lg-12 h1 text-center">
+             The Sum of All Fears
+         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 h5">Enter a number in each box below.</div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-1">
+        <input id="number1" class="form-control clearField" type="number" />
+
+    </div>
+
+    <div class="col-md-1 mt-2">
+        <input id="number2" class="form-control clearField" type="number" />
+
+    </div>
+
+    <div class="col-md-1 mt-2">
+        <input id="number3" class="form-control clearField" type="number" />
+
+    </div>
+
+    <div class="col-md-1 mt-2">
+        <input id="number4" class="form-control clearField" type="number" />
+
+    </div>
+
+    <div class="col-md-1 mt-2">
+        <input id="number5" class="form-control clearField" type="number" />
+
+    </div>
+
+    <div class="col-md-1 mt-2">
+        <input id="number6" class="form-control clearField" type="number" />
+
+    </div>
+
+</div>
+
+<div class="row mt-4">
+    <div class="col-lg-12 h5">Establish a k value by entering a mumber in the box below.</div>
+</div>
+<div class="row">
+    <div class="col-md-1"> <input id="kValue" class="form-control clearField" type="number" /> </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12"><hr /></div>
+</div>
+
+ <div class="row text-center">
+     <div id="displayResult" class="mt-1 ml-2 mb-3 font-weight-bolder">
+         Results:
+     </div>
+
+
+
+ </div>
+
+
+<div class="row">
+    <div class="d-inline-block ml-2">
+        <button id="btnSearch" type="button" class="btn">Start</button>
+
+        <button id="btnToggleCode" type="button" class="btn btn-light">Show Code</button>
+
+        <button id="clearFBResult" class="btn" type="button">Clear</button>
+    </div>
+
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="code">
+            <pre class="brush: js">
+
+                $("#code").hide();
+
+                $("#btnToggleCode").click(() => {
+                    $("#code").toggle();
+                    if ($("#btnToggleCode").text() == "Show Code")
+                    {
+                        $("#btnToggleCode").text("Hide Code");
+                    }
+                    else {
+                        $("#btnToggleCode").text("Show Code");
+                    }
+                });
+
+                $("#btnSearch").click(() => {
+
+
+                    //Collect values from user.
+                    //Warm user if no values are entered.
+
+                    if ($("#number1").val().length == 0 ||
+                        $("#number2").val().length == 0 ||
+                        $("#number3").val().length == 0 ||
+                        $("#number4").val().length == 0 ||
+                        $("#number5").val().length == 0 ||
+                        $("#number6").val().length == 0 ||
+                        $("#kValue").val().length == 0) {
+                        alert("Empty fiels are not allowed. Sorry!");
+                    }
+                    else
+                    {
+
+                        var numbList = [];
+
+                        //Populate array with numerical values.
+                        numbList.push(  Number($("#number1").val()) );
+                        numbList.push(  Number($("#number2").val()) );
+                        numbList.push(  Number($("#number3").val()) );
+                        numbList.push(  Number($("#number4").val()) );
+                        numbList.push(  Number($("#number5").val()) );
+                        numbList.push(  Number($("#number6").val()) );
+                        var kValue = Number($("#kValue").val())
+
+                       //Iterate through array using brute force method.
+                       for (var i = 0, foundSet = false; i < numbList.length - 1; i++)
+                       {
+                          for (var j = i + 1; j <= numbList.length - 1; j++)
+                          {
+                            if (numbList[i] + numbList[j] == kValue)
+                            {
+                                //Display result
+                                $("#displayResult").append($.parseHTML(kValue + " was found by adding array member <span class=\"red\">" + numbList[i] + "</span> and <span class=\"red\">" + numbList[j] + "</span>"));
+                                foundSet = true;
+                            }
+                              //Exit all loops if set is found.
+                              if (foundSet) break;
+                          }
+                       }
+                    }
+                });
+                $("#clearFBResult").click(function () {
+                    $("#number1").val('');
+                    $("#number2").val('');
+                    $("#number3").val('');
+                    $("#number4").val('');
+                    $("#number5").val('');
+                    $("#number6").val('');
+                    $("#kValue").val('');
+                    $("#displayResult").text('');
+                });
+
+            </pre>
+        </div>
+    </div>
+</div>
+
+-->
+
+
+
+<style>
+    * {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+#gameName {
+    background-color: orange;
+    border-radius: 20px;
+}
+</style>
+
+
+
+<div class="row" id="gameName">
+    <div class="col-sm-12 text-center h1 font-weight-bolder">
+        FIZZBUZZ
+    </div>
+    <div class="rev-style">
+        
+    </div>
+</div>
+
