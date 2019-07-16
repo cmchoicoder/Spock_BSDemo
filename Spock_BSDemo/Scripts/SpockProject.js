@@ -77,16 +77,21 @@
 //
         $("#btnPal").click(function () {
             var word = $("#palIn").val();
-            var revWord = "";
-           
-            for (var i = word.length - 1; i >= 0; i--) {
-                revWord += word.substr(i, 1);
-            }
+            var revString = "";
+          //<code1>
+           for (var i = word.length - 1; i >= 0; i--) {
+                  revString += word.substr(i, 1);
 
-            if (revWord == word) {
-                $("#palOut").html("This is Palindrome:<br/>" + ' ' + revWord);
+             //<code2>
+             // for (var char of wrod){
+             //    revString = char + revString;
+            }
+            //return revString;      
+
+            if (revString == word) {
+                $("#palOut").html("This is Palindrome:<br/>" + ' ' + revString);
             } else {
-                $("#palOut").html("This is not Palindrome:<br/>" + ' ' + revWord);
+                $("#palOut").html("This is not Palindrome:<br/>" + ' ' + revString);
             }
         });
         

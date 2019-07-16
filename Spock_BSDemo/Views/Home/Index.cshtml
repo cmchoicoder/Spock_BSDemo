@@ -449,6 +449,9 @@
                             <a class="nav-link" href="">Palindrome</a>
                         </li>
                         <li class="nav-item" data-custom-portfolio-id="#FbMenu">
+                            <a class="nav-link" href="">FizzBuzz</a>
+                        </li>
+                        <li class="nav-item" data-custom-portfolio-id="#sumOfMenu">
                             <a class="nav-link" href="">SumOfAllFears</a>
                         </li>
                     </ul>
@@ -661,7 +664,31 @@
                                                         $(this).text("Show Code");
                                                     }
                                                 });
-                   
+                                            <!--Reversing String//
+                                                Code 1: function reverseString(str){
+                                                            var revString = '';
+                                                            for(var i = 0; i <= str.length-1; i++ ){
+                                                                    revString = str[i] + revString;                                                    
+                                                            }
+                                                             return revString;                                                   
+                                                         }
+
+                                                Code 2: function reverseString(str){
+                                                            var revString = '';
+                                                            for(var char of str){
+                                                                revString = char + revString;
+                                                            }
+                                                             return revString;
+                                                        }
+                                                Code 3: function reverseString(str){
+                                                            var revString = '';
+                                                            str.split('').forEach(function(char){
+                                                                  revString = char + revString;
+                                                            });
+                                                        }     return revString;
+                                                Code 4: str.split('').forEach(char => revString = char + revString);
+
+                                            end-->
                                         </pre>
                                     </div>
                                 </div>
