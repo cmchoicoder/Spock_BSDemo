@@ -157,6 +157,7 @@
     <Content Include="img\lightblub.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\me.jpg" />
+    <Content Include="img\me_bg.jpg" />
     <Content Include="img\portfolio\1.jpg" />
     <Content Include="img\portfolio\2.jpg" />
     <Content Include="img\portfolio\3.jpg" />

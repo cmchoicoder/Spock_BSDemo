@@ -6,664 +6,45 @@
 <html lang="en">
 
 <head>
-  <!-- meta -->
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Folio - Personal Portfolio Template</title>
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+    <title>Folio - Personal Portfolio Template</title>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  
-  <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-  
-                                       
- <!-- Libraries CSS Files -->
+    <!-- Bootstrap CSS File -->
 
-  <link href="~/Content/ionicons.min.css" rel="stylesheet" />
-  <link href="~/Content/owl.carousel.min.css" rel="stylesheet" />
-  <link href="~/Content/magnific-popup.css" rel="stylesheet" />
-  <link href="~/Content/hover.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Main Stylesheet File -->
-  <link href="~/Content/style.css" rel="stylesheet" />
-  <link href="~/Content/SpockProjectStyle.css" rel="stylesheet" />
 
-  <!-- Responsive css -->
-  <link href="~/Content/responsive.css" rel="stylesheet" />
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="~/img/favicon.png">
+    <!-- Libraries CSS Files -->
+    <link href="~/Scripts/SyntaxHighlighter/styles/shCore.css" rel="stylesheet" />
+    <link href="~/Scripts/SyntaxHighlighter/styles/shThemeRDark.css" rel="stylesheet" />
+    <link href="~/Content/ionicons.min.css" rel="stylesheet" />
+    <link href="~/Content/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/Content/magnific-popup.css" rel="stylesheet" />
+    <link href="~/Content/hover.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/SpockProjectStyle.css" rel="stylesheet" />
+
+    <!-- Responsive css -->
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/img/favicon.png">
 
 </head>
 
 <body>
 
 
-    <!-- The Modal : Javascript Practice -->
-    <!-- The Modal -->
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog modal-dialog-entered modal-lg">
-                <div class="modal-content">
-
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">JavaScript Exercise</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-
-                    <!-- Modal body -->
-                    <div class="modal-body">
-
-                        <!-- Nav (Toggleable)pills -->
-                        <ul class="nav nav-pills">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="pill" href="#home">MathExercise</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="pill" href="#menu1">Factorial</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="pill" href="#menu2">Palindrome</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="pill" href="#menu3">FizzBuzz</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="pill" href="#menu4">SumOfAllFears</a>
-                            </li>
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content mt-4">
-
-                            <!-- MathExercise Begin -->
-                            <div class="tab-pane container active" id="home">
-                                <div class="row" id="gameNameMath">
-                                    <div class="col-sm-12 text-center h1 font-weight-bolder">
-                                        Math Exercise
-                                    </div>
-                                </div>
-                                <div class="row mb-5">
-                                    <div class="col-sm-12 text-center h5">
-                                        Lest's do some math.Enter any 5 integer numbers!
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="row form-group">
-                                            <div class="col-md-12">
-                                                <label for="num1">Enter number1:</label>
-                                                <input type="number" id="mathnum1" placeholder="Enter an integer" class="form-control" />
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-md-12">
-                                                <label for="num2">Enter number2:</label>
-                                                <input type="number" id="mathnum2" placeholder="Enter an integer" class="form-control" />
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-md-12">
-                                                <label for="num3">Enter number3:</label>
-                                                <input type="number" id="mathnum3" placeholder="Enter an integer" class="form-control" />
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-md-12">
-                                                <label for="num4">Enter number4:</label>
-                                                <input type="number" id="mathnum4" placeholder="Enter an integer" class="form-control" />
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-md-12">
-                                                <label for="num5">Enter number5:</label>
-                                                <input type="number" id="mathnum5" placeholder="Enter an integer" class="form-control" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-md-12 text h3 bg-light text-center">Results</div>
-                                        </div>
-                                        <div class="row mb-3 h4">
-                                            <div class="col-md-12" id="smallest"></div>
-                                        </div>
-                                        <div class="row mb-3 h4">
-                                            <div class="col-md-12" id="largest"></div>
-                                        </div>
-                                        <div class="row mb-3 h4">
-                                            <div class="col-md-12" id="sum"></div>
-                                        </div>
-                                        <div class="row mb-3 h4">
-                                            <div class="col-md-12" id="product"></div>
-                                        </div>
-                                        <div class="row mb-3 h4">
-                                            <div class="col-md-12" id="average"></div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="d-inline-block ml-2">
-                                            <button id="btnStartMath" type="button" class="btn">Start</button>
-                                            <button id="btnToggleCodeMath" type="button" class="btn btn-light">Show Code</button>
-                                            <button id="btnClearMath" type="button" class="btn">Clear</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <hr />
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div id="codeMath">
-                                            <pre class="brush:js">
-                   
-                                            $("#btnStartMath").click(function () {
-                                                var num1 = Number($("#mathnum1").val());
-                                                var num2 = Number($("#mathnum2").val());
-                                                var num3 = Number($("#mathnum3").val());
-                                                var num4 = +$("#mathnum4").val();
-                                                var num5 = +$("#mathnum5").val();
-
-                                                var smallest = Math.min(num1, num2, num3, num4, num5);
-                                                var largest = Math.max(num1, num2, num3, num4, num5);
-                                                var sum = num1 + num2 + num3 + num4 + num5;
-                                                var product = num1 * num2 * num3 * num4 * num5;
-                                                var average = sum / 5;
-
-                                                $("#smallest").text("The smallest number is:" + ' ' + smallest);
-                                                $("#largest").text("The largest number is:" + ' ' + largest);
-                                                $("#sum").text("The sum is:" + sum);
-                                                $("#product").text("The product is:" + ' ' + product);
-                                                $("#average").text("The average is:" + ' ' + average);
-                                            });
-
-                                            $("#btnClearMath").click(function () {
-                                                $("#mathnum1, #mathnum2, #mathnum3, #mathnum4, #mathnum5").val('');
-                                                $("#smallest, #largest, #sum, #product, #average").text('');
-                                                $("#factOut").text('');
-                                                $("#fact").val('');
-                                            });
-
-                                            $("#codeMath").hide();
-                                            $("#btnToggleCodeMath").click(function () {
-                                                $("#codeMath").toggle();
-                                                if ($(this).text() == "Show Code") {
-                                                $(this).text("Hide Code");
-                                                } else {
-                                                    $(this).text("Show Code");
-                                                }
-                                            });
-                   
-                                        </pre>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- MathExercise End -->
-                            <!-- Factorial Begin  -->
-                            <div class="tab-pane container fade" id="menu1">
-
-                                <div class="row" id="gameNameFact">
-                                    <div class="col-sm-12 text-center h1 font-weight-bolder">
-                                        Factorial Exercise
-
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <form class="form-group mb-5">
-                                            <div class="row mt-5">
-                                                <label for="factNum">Number:</label>
-                                                <input id="fact" class="form-control" type="number" placeholder="Enter your number" />
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row">
-                                            <div class="col-sm-12 mt-5 text-center h5">
-                                                Results
-                                            </div>
-
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12 mt-2 h4 text-center">
-                                                <p id="factOut"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="d-inline-block ml-2">
-                                            <button id="btnFact" type="button" class="btn">Start</button>
-
-                                            <button id="btnToggleCodeFact" type="button" class="btn btn-light">Show Code</button>
-
-                                            <button id="btnClearFact" type="button" class="btn">Clear</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div id="codeFact">
-                                            <pre class="brush:js">
-                    
-                                                $("#btnPal").click(function () {
-
-                                                    var word = $("#palIn").val();
-                                                    var revWord = "";
-           
-                                                    for (var i = word.length - 1; i >= 0; i--) {
-                                                        revWord += word.substr(i, 1);
-                                                    }
-
-                                                    if (revWord == word) {
-                                                        $("#palOut").text("This is Palindrome:" + ' ' + revWord);
-                                                    } else {
-                                                        $("#palOut").text("This is not Palindrome:" + ' ' + revWord);
-                                                    }
-                                                });
-
-                                                $("#btnClearFact").click(function () {
-                                                    $("#palOut").text('');
-                                                    $("#palIn").val('');
-                                                });
-
-                                                $("#codeFact").hide();
-                                                $("#btnToggleCode").click(function () {
-                                                    $("#codeFact").toggle();
-                                                    if ($(this).text() == "Show Code") {
-                                                        $(this).text("Hide Code");
-                                                    } else {
-                                                        $(this).text("Show Code");
-                                                    }
-                                                });
-                   
-                                        </pre>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- Factorial End -->
-                            <!-- Palindrome Begin  -->
-                            <div class="tab-pane container fade" id="menu2">
-
-                                <div class="row mb-5" id="gameNamePalin">
-                                    <div class="col-sm-12 text-center h1 font-weight-bolder">
-                                        <div class="col-lg-12 h1 text-center">
-                                            Palindrome
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <form>
-                                            <div class="row mb-5">
-                                                <div class="form-group">
-                                                    <label for="newWord">Word:</label>
-                                                    <input id="palIn" type="text" class="form-control" placeholder="Enter your word" />
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <card class="card-body">
-                                            <div class="card-text p-4">
-                                                <p id="palOut" class="text-center h4"></p>
-                                            </div>
-                                        </card>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="d-inline-block ml-2">
-                                        <button id="btnPal" type="button" class="btn">Start</button>
-
-                                        <button id="btnToggleCodePalin" type="button" class="btn btn-light">Show Code</button>
-
-                                        <button id="btnClearPalin" type="button" class="btn">Clear</button>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div id="codePalin">
-                                            <pre class="brush:js">
-                   
-                        
-                                        $("#btnPal").click(function (){
-
-                                            var word = $("#palIn").val();
-                                            var revWord = "";
-           
-                                            for (var i = word.length - 1; i >= 0; i--) {
-                                                revWord += word.substr(i, 1);
-                                            }
-
-                                            if (revWord == word) {
-                                                $("#palOut").text("This is Palindrome:" + ' ' + revWord);
-                                            } else {
-                                                $("#palOut").text("This is not Palindrome:" + ' ' + revWord);
-                                            }
-                                        });
-
-                                        $("#btnClearPalin").click(function () {
-                                            $("#palOut").text('');
-                                            $("#palIn").val('');
-                                        });
-
-                                        $("#codePalin").hide();
-                                        $("#btnToggleCodePalin").click(function () {
-                                            $("#codePalin").toggle();
-                                            if ($(this).text() == "Show Code") {
-                                                $(this).text("Hide Code");
-                                            } else {
-                                                $(this).text("Show Code");
-                                            }
-                                        });
-                  
-                                    </pre>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- Palindrome End  -->
-                            <!-- FizzBuzz Begin  -->
-                            <div class="tab-pane container fade" id="menu3">
-                                <div class="container">
-                                    <div class="row" id="gameNameFB">
-                                        <div class="col-sm-12 text-center h1 font-weight-bolder">
-                                            FIZZBUZZ
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 text-center h5">
-                                            Enter any two integers between 1 and 100.
-                                        </div>
-                                    </div>
-                                    <hr />
-
-                                    <div class="row">
-                                        <div class="col-sm-4 col-md-6">
-                                            <form>
-                                                <div class="form-group">
-                                                    <label for="num1">Number 1:</label>
-                                                    <input class="form-control" id="fbIn1" type="number" placeholder="Integer 1..." />
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="num2">Number 2:</label>
-                                                    <input class="form-control" id="fbIn2" type="number" placeholder="Integer 2..." />
-                                                </div>
-                                            </form>
-
-                                        </div>
-
-
-                                        <div class="col-sm-8 col-md-6">
-                                            <div id="resultBox" class="row">
-                                                <div class="col-md-12 align-text-top text-center">
-                                                    Result...
-                                                </div>
-                                            </div>
-
-                                            <div class="row outBox pre-scrollable form-group" style="height:400px">
-                                                <p id="fbOut" class="text-justify"></p>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="d-inline-block ml-2">
-                                                <button id="btnFB" type="button" class="btn">Start</button>
-
-                                                <button id="btnToggleCodeFB" type="button" class="btn btn-light">Show Code</button>
-
-                                                <button id="btnClearFB" type="button" class="btn">Clear</button>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div id="codeFB">
-                                                <pre class="brush:js">
-                
-                                            $("#btnFB").click(function () {
-
-                                                var num1 = +$("#fbIn1").val();
-                                                var num2 = +$("#fbIn2").val();
-                                                var output = "";
-
-                                                for (var counter = 1; counter <= 100; counter++) {
-
-                                                    if ((counter % num1 == 0) && (counter % num2 == 0)) {
-                                                        output += "FizzBuzz, ";
-                                                    } else if (counter % num1 == 0) {
-                                                        output += "Fizz, ";
-                                                    } else if (counter % num2 == 0) {
-                                                        output += "Buzz, ";
-                                                    } else {
-                                                        output += counter + ', ';
-                                                    }
-                                                }
-                                                output = output.substr(0, output.length - 2);
-                                                $("#fbOut").text(output);
-                                            });
-
-                                            $("#btnClearFB").click(function () {
-                                                $("#fbIn1,#fbIn2").val('');
-                                                $("#fbOut").text('');
-                                            });
-                                            $("#codeFB").hide();
-
-                                            $("#btnToggleCodeFB").click(() => {
-                                                $("#code").toggle();
-                                                if ($("#btnToggleCodeFB").text() == "Show Code")
-                                                {
-                                                    $("#btnToggleCodeFB").text("Hide Code");
-                                                }
-                                                else {
-                                                    $("#btnToggleCodeFB").text("Show Code");
-                                                }
-                                            });
-
-                                        </pre>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- FizzBuzz End  -->
-                            <!-- Sum of All Fears begin  -->
-                            <div class="tab-pane container fade" id="menu4">
-                                <div class="row" id="gameNameSumof">
-                                    <div class="col-sm-12 text-center h1 font-weight-bolder">
-                                        <div class="col-lg-12 h1 text-center">
-                                            The Sum of All Fears
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12 h5">Enter a number in each box below.</div>
-                                </div>
-
-                                <div class="row">
-
-                                    <div class="col-md-2 mt-2">
-                                        <input id="number1" class="form-control clearField" type="number" />
-
-                                    </div>
-
-                                    <div class="col-md-2 mt-2">
-                                        <input id="number2" class="form-control clearField" type="number" />
-
-                                    </div>
-
-                                    <div class="col-md-2 mt-2">
-                                        <input id="number3" class="form-control clearField" type="number" />
-
-                                    </div>
-
-                                    <div class="col-md-2 mt-2">
-                                        <input id="number4" class="form-control clearField" type="number" />
-
-                                    </div>
-
-                                    <div class="col-md-2 mt-2">
-                                        <input id="number5" class="form-control clearField" type="number" />
-
-                                    </div>
-
-                                    <div class="col-md-2 mt-2">
-                                        <input id="number6" class="form-control clearField" type="number" />
-
-                                    </div>
-
-                                </div>
-
-                                <div class="row mt-4">
-                                    <div class="col-lg-12 h5">Establish a k value by entering a mumber in the box below.</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-2"> <input id="kValue" class="form-control clearField" type="number" /> </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-12"><hr /></div>
-                                </div>
-
-                                <div class="row text-center">
-                                    <div id="displayResult" class="mt-1 ml-2 mb-3 font-weight-bolder">
-                                        Results:
-                                    </div>
-
-
-
-                                </div>
-
-
-                                <div class="row">
-                                    <div class="d-inline-block ml-2">
-                                        <button id="btnSearchSumof" type="button" class="btn">Start</button>
-
-                                        <button id="btnToggleCodeSumof" type="button" class="btn btn-light">Show Code</button>
-
-                                        <button id="clearFBResult" class="btn" type="button">Clear</button>
-                                    </div>
-
-                                </div>
-
-
-
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div id="codeSumof">
-                                            <pre class="brush: js">
-                
-                                            $("#codeSumof").hide();
-
-                                            $("#btnToggleCodeSumof").click(() => {
-                                                $("#codeSumof").toggle();
-                                                if ($("#btnToggleCodeSumof").text() == "Show Code")
-                                                {
-                                                    $("#btnToggleCodeSumof").text("Hide Code");
-                                                }
-                                                else {
-                                                    $("#btnToggleCodeSumof").text("Show Code");
-                                                }
-                                            });
-      
-                                            $("#btnSearchSumof").click(() => {
-
-
-                                                //Collect values from user.
-                                                //Warm user if no values are entered.
-
-                                                if ($("#number1").val().length == 0 ||
-                                                    $("#number2").val().length == 0 ||
-                                                    $("#number3").val().length == 0 ||
-                                                    $("#number4").val().length == 0 ||
-                                                    $("#number5").val().length == 0 ||
-                                                    $("#number6").val().length == 0 ||
-                                                    $("#kValue").val().length == 0) {
-                                                    alert("Empty fiels are not allowed. Sorry!");
-                                                }
-                                                else
-                                                {
-       
-                                                    var numbList = [];
-
-                                                    //Populate array with numerical values.
-                                                    numbList.push(  Number($("#number1").val()) );
-                                                    numbList.push(  Number($("#number2").val()) );
-                                                    numbList.push(  Number($("#number3").val()) );
-                                                    numbList.push(  Number($("#number4").val()) );
-                                                    numbList.push(  Number($("#number5").val()) );
-                                                    numbList.push(  Number($("#number6").val()) );
-                                                    var kValue = Number($("#kValue").val())
-
-                                                    //Iterate through array using brute force method.
-                                                    for (var i = 0, foundSet = false; i < numbList.length - 1; i++)
-                                                    {
-                                                        for (var j = i + 1; j <= numbList.length - 1; j++)
-                                                        {
-                                                        if (numbList[i] + numbList[j] == kValue)
-                                                        {
-                                                            //Display result
-                                                            $("#displayResult").append($.parseHTML(kValue + " was found by adding array member <span class=\"red\">" + numbList[i] + "</span> and <span class=\"red\">" + numbList[j] + "</span>"));
-                                                            foundSet = true;
-                                                        }
-                                                            //Exit all loops if set is found.
-                                                            if (foundSet) break;
-                                                        }
-                                                    }
-                                                }
-                                            });
-                                            $("#clearFBResult").click(function () {
-                                                $("#number1").val('');
-                                                $("#number2").val('');
-                                                $("#number3").val('');
-                                                $("#number4").val('');
-                                                $("#number5").val('');
-                                                $("#number6").val('');
-                                                $("#kValue").val('');
-                                                $("#displayResult").text('');
-                                            });
-             
-                                        </pre>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-                            </div>
-                            <!-- Sum of All Fears End  -->
-
-
-                        </div>
-                    </div>
-
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-
-                </div>
-            </div>
-        </div>  
+    
 
 
 
@@ -693,7 +74,7 @@
     </nav>
     <!-- End section navbar -->
     <!-- start section header -->
-    <div id="header" class="home">
+    <div id="header" class="home img-responsive">
 
         <div class="container">
             <div class="header-content">
@@ -827,14 +208,11 @@
                     <div class="portfolio-container">
 
                         <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-                            <!-- <a class="" href="~/img/portfolio/1.jpg">
-                                 <img src="~/img/portfolio/1.jpg" alt="img">
+                            <!-- <a class="" href="~/img/portfolio/1.jpg" data-toggle="modal" data-target="#myModal">
+                                 </a>-->
+                            <img src="~/img/portfolio/1.jpg" alt="img" data-toggle="modal" data-target="#myModal">
+                            <!-- get rid of Modal Button to Open the Modal -->
 
-                            </a>-->
-                            <!-- Button to Open the Modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                            Open modal
-                        </button>
 
                         </div>
 
@@ -1042,7 +420,633 @@
             </div>
 
         </div>
+
     </div>
+    <!-- The Modal : Javascript Practice -->
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">JavaScript Exercise</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                     
+                    <!-- Nav (Toggleable)pills -->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item active" data-custom-portfolio-id="#mathMenu">
+                            <a class="nav-link myCustomTabStyle" href="">MathExercise</a>
+                        </li>
+                        <li class="nav-item" data-custom-portfolio-id="#factMenu">
+                            <a class="nav-link" href="">Factorial</a>
+                        </li>
+                        <li class="nav-item" data-custom-portfolio-id="#palinMenu">
+                            <a class="nav-link" href="">Palindrome</a>
+                        </li>
+                        <li class="nav-item" data-custom-portfolio-id="#FbMenu">
+                            <a class="nav-link" href="">SumOfAllFears</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content mt-4">
+
+                        <!-- MathExercise Begin -->
+                        <div class="tab-pane container active" id="mathMenu">
+                            <div class="row" id="gameNameMath">
+                                <div class="col-sm-12 text-center h1 font-weight-bolder">
+                                    Math Exercise
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-sm-12 text-center h5">
+                                    Lest's do some math.Enter any 5 integer numbers!
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="num1">Enter number1:</label>
+                                            <input type="number" id="mathnum1" placeholder="Enter an integer" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="num2">Enter number2:</label>
+                                            <input type="number" id="mathnum2" placeholder="Enter an integer" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="num3">Enter number3:</label>
+                                            <input type="number" id="mathnum3" placeholder="Enter an integer" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="num4">Enter number4:</label>
+                                            <input type="number" id="mathnum4" placeholder="Enter an integer" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="num5">Enter number5:</label>
+                                            <input type="number" id="mathnum5" placeholder="Enter an integer" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-12 text h3 bg-light text-center">Results</div>
+                                    </div>
+                                    <div class="row mb-3 h4">
+                                        <div class="col-md-12" id="smallest"></div>
+                                    </div>
+                                    <div class="row mb-3 h4">
+                                        <div class="col-md-12" id="largest"></div>
+                                    </div>
+                                    <div class="row mb-3 h4">
+                                        <div class="col-md-12" id="sum"></div>
+                                    </div>
+                                    <div class="row mb-3 h4">
+                                        <div class="col-md-12" id="product"></div>
+                                    </div>
+                                    <div class="row mb-3 h4">
+                                        <div class="col-md-12" id="average"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="d-inline-block ml-2">
+                                        <button id="btnStartMath" type="button" class="btn">Start</button>
+                                        <button id="btnToggleCodeMath" type="button" class="btn btn-light">Show Code</button>
+                                        <button id="btnClearMath" type="button" class="btn">Clear</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="codeMath">
+                                        <pre class="brush:js">
+                   
+                                            $("#btnStartMath").click(function () {
+                                                var num1 = Number($("#mathnum1").val());
+                                                var num2 = Number($("#mathnum2").val());
+                                                var num3 = Number($("#mathnum3").val());
+                                                var num4 = +$("#mathnum4").val();
+                                                var num5 = +$("#mathnum5").val();
+
+                                                var smallest = Math.min(num1, num2, num3, num4, num5);
+                                                var largest = Math.max(num1, num2, num3, num4, num5);
+                                                var sum = num1 + num2 + num3 + num4 + num5;
+                                                var product = num1 * num2 * num3 * num4 * num5;
+                                                var average = sum / 5;
+
+                                                $("#smallest").text("The smallest number is:" + ' ' + smallest);
+                                                $("#largest").text("The largest number is:" + ' ' + largest);
+                                                $("#sum").text("The sum is:" + sum);
+                                                $("#product").text("The product is:" + ' ' + product);
+                                                $("#average").text("The average is:" + ' ' + average);
+                                            });
+
+                                            $("#btnClearMath").click(function () {
+                                                $("#mathnum1, #mathnum2, #mathnum3, #mathnum4, #mathnum5").val('');
+                                                $("#smallest, #largest, #sum, #product, #average").text('');
+                                                $("#factOut").text('');
+                                                $("#fact").val('');
+                                            });
+
+                                            $("#codeMath").hide();
+                                            $("#btnToggleCodeMath").click(function () {
+                                                $("#codeMath").toggle();
+                                                if ($(this).text() == "Show Code") {
+                                                $(this).text("Hide Code");
+                                                } else {
+                                                    $(this).text("Show Code");
+                                                }
+                                            });
+                   
+                                        </pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MathExercise End -->
+                        <!-- Factorial Begin  -->
+                        <div class="tab-pane container fade" id="factMenu">
+
+                            <div class="row" id="gameNameFact">
+                                <div class="col-sm-12 text-center h1 font-weight-bolder">
+                                    Factorial Exercise
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <form class="form-group mb-5">
+                                        <div class="row mt-5">
+                                            <label for="factNum">Number:</label>
+                                            <input id="fact" class="form-control" type="number" placeholder="Enter your number" />
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-12 mt-5 text-center h5">
+                                            Results
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt-2 h4 text-center">
+                                            <p id="factOut"></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="d-inline-block ml-2">
+                                        <button id="btnFact" type="button" class="btn">Start</button>
+
+                                        <button id="btnToggleCodeFact" type="button" class="btn btn-light">Show Code</button>
+
+                                        <button id="btnClearFact" type="button" class="btn">Clear</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="codeFact">
+                                        <pre class="brush:js">
+                    
+                                                $("#btnPal").click(function () {
+
+                                                    var word = $("#palIn").val();
+                                                    var revWord = "";
+           
+                                                    for (var i = word.length - 1; i >= 0; i--) {
+                                                        revWord += word.substr(i, 1);
+                                                    }
+
+                                                    if (revWord == word) {
+                                                        $("#palOut").text("This is Palindrome:" + ' ' + revWord);
+                                                    } else {
+                                                        $("#palOut").text("This is not Palindrome:" + ' ' + revWord);
+                                                    }
+                                                });
+
+                                                $("#btnClearFact").click(function () {
+                                                    $("#palOut").text('');
+                                                    $("#palIn").val('');
+                                                });
+
+                                                $("#codeFact").hide();
+                                                $("#btnToggleCode").click(function () {
+                                                    $("#codeFact").toggle();
+                                                    if ($(this).text() == "Show Code") {
+                                                        $(this).text("Hide Code");
+                                                    } else {
+                                                        $(this).text("Show Code");
+                                                    }
+                                                });
+                   
+                                        </pre>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Factorial End -->
+                        <!-- Palindrome Begin  -->
+                        <div class="tab-pane container fade" id="palinMenu">
+
+                            <div class="row mb-5" id="gameNamePalin">
+                                <div class="col-sm-12 text-center h1 font-weight-bolder">
+                                    <div class="col-lg-12 h1 text-center">
+                                        Palindrome
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <form>
+                                        <div class="row mb-5">
+                                            <div class="form-group">
+                                                <label for="newWord">Word:</label>
+                                                <input id="palIn" type="text" class="form-control" placeholder="Enter your word" />
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-6">
+                                    <card class="card-body">
+                                        <div class="card-text p-4">
+                                            <p id="palOut" class="text-center h4"></p>
+                                        </div>
+                                    </card>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="d-inline-block ml-2">
+                                    <button id="btnPal" type="button" class="btn">Start</button>
+
+                                    <button id="btnToggleCodePalin" type="button" class="btn btn-light">Show Code</button>
+
+                                    <button id="btnClearPalin" type="button" class="btn">Clear</button>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="codePalin">
+                                        <pre class="brush:js">
+                   
+                        
+                                        $("#btnPal").click(function (){
+
+                                            var word = $("#palIn").val();
+                                            var revWord = "";
+           
+                                            for (var i = word.length - 1; i >= 0; i--) {
+                                                revWord += word.substr(i, 1);
+                                            }
+
+                                            if (revWord == word) {
+                                                $("#palOut").text("This is Palindrome:" + ' ' + revWord);
+                                            } else {
+                                                $("#palOut").text("This is not Palindrome:" + ' ' + revWord);
+                                            }
+                                        });
+
+                                        $("#btnClearPalin").click(function () {
+                                            $("#palOut").text('');
+                                            $("#palIn").val('');
+                                        });
+
+                                        $("#codePalin").hide();
+                                        $("#btnToggleCodePalin").click(function () {
+                                            $("#codePalin").toggle();
+                                            if ($(this).text() == "Show Code") {
+                                                $(this).text("Hide Code");
+                                            } else {
+                                                $(this).text("Show Code");
+                                            }
+                                        });
+                  
+                                    </pre>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Palindrome End  -->
+                        <!-- FizzBuzz Begin  -->
+                        <div class="tab-pane container fade" id="FbMenu">
+                            <div class="container">
+                                <div class="row" id="gameNameFB">
+                                    <div class="col-sm-12 text-center h1 font-weight-bolder">
+                                        FIZZBUZZ
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center h5">
+                                        Enter any two integers between 1 and 100.
+                                    </div>
+                                </div>
+                                <hr />
+
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-6">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="num1">Number 1:</label>
+                                                <input class="form-control" id="fbIn1" type="number" placeholder="Integer 1..." />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="num2">Number 2:</label>
+                                                <input class="form-control" id="fbIn2" type="number" placeholder="Integer 2..." />
+                                            </div>
+                                        </form>
+
+                                    </div>
+
+
+                                    <div class="col-sm-8 col-md-6">
+                                        <div id="resultBox" class="row">
+                                            <div class="col-md-12 align-text-top text-center">
+                                                Result...
+                                            </div>
+                                        </div>
+
+                                        <div class="row outBox pre-scrollable form-group" style="height:400px">
+                                            <p id="fbOut" class="text-justify"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="d-inline-block ml-2">
+                                            <button id="btnFB" type="button" class="btn">Start</button>
+
+                                            <button id="btnToggleCodeFB" type="button" class="btn btn-light">Show Code</button>
+
+                                            <button id="btnClearFB" type="button" class="btn">Clear</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div id="codeFB">
+                                            <pre class="brush:js">
+                
+                                            $("#btnFB").click(function () {
+
+                                                var num1 = +$("#fbIn1").val();
+                                                var num2 = +$("#fbIn2").val();
+                                                var output = "";
+
+                                                for (var counter = 1; counter <= 100; counter++) {
+
+                                                    if ((counter % num1 == 0) && (counter % num2 == 0)) {
+                                                        output += "FizzBuzz, ";
+                                                    } else if (counter % num1 == 0) {
+                                                        output += "Fizz, ";
+                                                    } else if (counter % num2 == 0) {
+                                                        output += "Buzz, ";
+                                                    } else {
+                                                        output += counter + ', ';
+                                                    }
+                                                }
+                                                output = output.substr(0, output.length - 2);
+                                                $("#fbOut").text(output);
+                                            });
+
+                                            $("#btnClearFB").click(function () {
+                                                $("#fbIn1,#fbIn2").val('');
+                                                $("#fbOut").text('');
+                                            });
+                                            $("#codeFB").hide();
+
+                                            $("#btnToggleCodeFB").click(() => {
+                                                $("#code").toggle();
+                                                if ($("#btnToggleCodeFB").text() == "Show Code")
+                                                {
+                                                    $("#btnToggleCodeFB").text("Hide Code");
+                                                }
+                                                else {
+                                                    $("#btnToggleCodeFB").text("Show Code");
+                                                }
+                                            });
+
+                                        </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- FizzBuzz End  -->
+                        <!-- Sum of All Fears begin  -->
+                        <div class="tab-pane container fade" id="sumOfMenu">
+                            <div class="row" id="gameNameSumof">
+                                <div class="col-sm-12 text-center h1 font-weight-bolder">
+                                    <div class="col-lg-12 h1 text-center">
+                                        The Sum of All Fears
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 h5">Enter a number in each box below.</div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-2 mt-2">
+                                    <input id="number1" class="form-control clearField" type="number" />
+
+                                </div>
+
+                                <div class="col-md-2 mt-2">
+                                    <input id="number2" class="form-control clearField" type="number" />
+
+                                </div>
+
+                                <div class="col-md-2 mt-2">
+                                    <input id="number3" class="form-control clearField" type="number" />
+
+                                </div>
+
+                                <div class="col-md-2 mt-2">
+                                    <input id="number4" class="form-control clearField" type="number" />
+
+                                </div>
+
+                                <div class="col-md-2 mt-2">
+                                    <input id="number5" class="form-control clearField" type="number" />
+
+                                </div>
+
+                                <div class="col-md-2 mt-2">
+                                    <input id="number6" class="form-control clearField" type="number" />
+
+                                </div>
+
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-lg-12 h5">Establish a k value by entering a mumber in the box below.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2"> <input id="kValue" class="form-control clearField" type="number" /> </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12"><hr /></div>
+                            </div>
+
+                            <div class="row text-center">
+                                <div id="displayResult" class="mt-1 ml-2 mb-3 font-weight-bolder">
+                                    Results:
+                                </div>
+
+
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="d-inline-block ml-2">
+                                    <button id="btnSearchSumof" type="button" class="btn">Start</button>
+
+                                    <button id="btnToggleCodeSumof" type="button" class="btn btn-light">Show Code</button>
+
+                                    <button id="clearFBResult" class="btn" type="button">Clear</button>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="codeSumof">
+                                        <pre class="brush: js">
+                
+                                            $("#codeSumof").hide();
+
+                                            $("#btnToggleCodeSumof").click(() => {
+                                                $("#codeSumof").toggle();
+                                                if ($("#btnToggleCodeSumof").text() == "Show Code")
+                                                {
+                                                    $("#btnToggleCodeSumof").text("Hide Code");
+                                                }
+                                                else {
+                                                    $("#btnToggleCodeSumof").text("Show Code");
+                                                }
+                                            });
+      
+                                            $("#btnSearchSumof").click(() => {
+
+
+                                                //Collect values from user.
+                                                //Warm user if no values are entered.
+
+                                                if ($("#number1").val().length == 0 ||
+                                                    $("#number2").val().length == 0 ||
+                                                    $("#number3").val().length == 0 ||
+                                                    $("#number4").val().length == 0 ||
+                                                    $("#number5").val().length == 0 ||
+                                                    $("#number6").val().length == 0 ||
+                                                    $("#kValue").val().length == 0) {
+                                                    alert("Empty fiels are not allowed. Sorry!");
+                                                }
+                                                else
+                                                {
+       
+                                                    var numbList = [];
+
+                                                    //Populate array with numerical values.
+                                                    numbList.push(  Number($("#number1").val()) );
+                                                    numbList.push(  Number($("#number2").val()) );
+                                                    numbList.push(  Number($("#number3").val()) );
+                                                    numbList.push(  Number($("#number4").val()) );
+                                                    numbList.push(  Number($("#number5").val()) );
+                                                    numbList.push(  Number($("#number6").val()) );
+                                                    var kValue = Number($("#kValue").val())
+
+                                                    //Iterate through array using brute force method.
+                                                    for (var i = 0, foundSet = false; i < numbList.length - 1; i++)
+                                                    {
+                                                        for (var j = i + 1; j <= numbList.length - 1; j++)
+                                                        {
+                                                        if (numbList[i] + numbList[j] == kValue)
+                                                        {
+                                                            //Display result
+                                                            $("#displayResult").append($.parseHTML(kValue + " was found by adding array member <span class=\"red\">" + numbList[i] + "</span> and <span class=\"red\">" + numbList[j] + "</span>"));
+                                                            foundSet = true;
+                                                        }
+                                                            //Exit all loops if set is found.
+                                                            if (foundSet) break;
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                            $("#clearFBResult").click(function () {
+                                                $("#number1").val('');
+                                                $("#number2").val('');
+                                                $("#number3").val('');
+                                                $("#number4").val('');
+                                                $("#number5").val('');
+                                                $("#number6").val('');
+                                                $("#kValue").val('');
+                                                $("#displayResult").text('');
+                                            });
+             
+                                        </pre>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                        <!-- Sum of All Fears End  -->
+
+
+                    </div>
+
+
+
+
+                     <!-- ------------------------------------------------------------------------------ -->
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
     <!-- End section footer -->
     <!-- JavaScript Libraries -->
     <script src="~/Scripts/jquery.min.js"></script>
@@ -1052,13 +1056,16 @@
     <script src="~/Scripts/owl.carousel.min.js"></script>
     <script src="~/Scripts/magnific-popup.min.js"></script>
     <script src="~/Scripts/isotope.pkgd.min.js"></script>
-       
-    <!-- Contact Form JavaScript File -->
-    <script src="~/Scripts/contactform.js"></script>
-  
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+   
+
     <!-- Template Main Javascript File -->
     <script src="~/Scripts/SpockProject.js"></script>
     <script src="~/Scripts/main.js"></script>
+    <script>
+         SyntaxHighlighter.all();
+    </script>
 </body>
 
 </html>

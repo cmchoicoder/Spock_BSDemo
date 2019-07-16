@@ -1,6 +1,6 @@
 ﻿//   MathExercise.....
 
-
+        
         //MathExercise...
         $("#btnStartMath").click(function(){
             var num1 = Number($("#mathnum1").val());
@@ -225,3 +225,12 @@
             $("#kValue").val('');
             $("#displayResult").text('');
         });
+
+//Custom Tab Scripts
+$("ul.nav-pills li.nav-item").click(function (e) {
+    e.preventDefault();
+    $("ul.nav-pills li.nav-item").removeClass("active").find("a").removeClass("myCustomTabStyle");
+    $(this).addClass("active").find("a").addClass("myCustomTabStyle");
+    $("div.tab-content div.tab-pane").removeClass("active");
+    $($(this).attr("data-custom-portfolio-id")).addClass("active").css("opacity","1");
+});

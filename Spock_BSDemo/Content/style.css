@@ -240,7 +240,8 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../img/home-bg.jpg") repeat scroll center;
+  background: url("/img/me_bg.jpg") no-repeat scroll center;
+  background-size: cover; 
   height: 100vh;
   width: 100%;
 }
@@ -628,4 +629,15 @@ nav ul li a {
 
 .credits {
   font-size: 13px;
+}
+
+/* Custom css */
+
+.myCustomTabStyle{
+    background-color:blue !important;
+    color:white !important;
+}
+
+div.tab-content .active {
+    color:black !important;
 }
